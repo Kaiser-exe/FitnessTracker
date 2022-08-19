@@ -142,37 +142,37 @@
         <!-- partial -->
         <div class="main-panel">
           <div class="content-wrapper">
-            <div class="row">
-              <div class="col-md-6 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="d-flex align-items-center align-self-start">
-                      <h4 class="card-title">Average Speed (min/km)</h4>
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Running</h4>
+                <form class="forms-sample">
+                  <div class="form-group row">
+                    <label for="#runningDuration" class="col-sm-3 col-form-label">Duration</label>
+                    <div class="col-sm-9">
+                      <input type="time" step="2" class="form-control" id="runningDuration">
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="col-md-6 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="d-flex align-items-center align-self-start">
-                      <h4 class="card-title">Average Distance</h4>
+                  <div class="form-group row">
+                    <label for="runningDate" class="col-sm-3 col-form-label">Date</label>
+                    <div class="col-sm-9">
+                      <input type="date" class="form-control" id="runningDate" placeholder="dd/mm/yyyy">
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="d-flex align-items-center align-self-start">
-                      <div class="chartjs-size-monitor">
-                        <h4 class="card-title">Average Heartbeat</h4>
-                      </div>
+                  <div class="form-group row">
+                    <label for="runningDistance" class="col-sm-3 col-form-label">Distance</label>
+                    <div class="col-sm-9">
+                      <input type="number" step="0.01" min="0" max="99" class="form-control" id="runningDistance">
                     </div>
                   </div>
-                </div>
+                  <div class="form-group row">
+                    <label for="runningAverageHeartbeat" class="col-sm-3 col-form-label">Average Heartbeat</label>
+                    <div class="col-sm-9">
+                      <input type="number" min="0" max="999" class="form-control" id="runningAverageHeartbeat">
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary me-2">Submit</button>
+                  <button class="btn btn-dark">Cancel</button>
+                </form>
               </div>
             </div>
           </div>
