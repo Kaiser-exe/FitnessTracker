@@ -19901,7 +19901,7 @@ div.tagsinput {
 /* === Landing screens === */
 /* Auth */
 .auth.login-bg {
-  background: url("../images/auth/login_bgmine.jpg");
+  background: url("../images/auth/login_bg.jpg");
   background-size: cover; }
 
 .auth .login-half-bg {
@@ -19909,7 +19909,7 @@ div.tagsinput {
   background-size: cover; }
 
 .auth.register-half-bg {
-  background: url("../images/auth/login_bgmine.jpg");
+  background: url("../images/auth/login_bg.jpg");
   background-size: cover; }
 
 .auth.lock-full-bg {
