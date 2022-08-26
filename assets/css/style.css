@@ -7462,6 +7462,7 @@
   --bs-info: #8f5fe8;
   --bs-warning: #ffab00;
   --bs-danger: #fc424a;
+  --bs-coming: #8f5fe8;
   --bs-light: #ffffff;
   --bs-dark: #0d0d0d;
   --bs-primary-rgb: 13, 110, 253;
@@ -7470,6 +7471,7 @@
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
+  --bs-coming-rgb: 143, 95, 232;
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
@@ -13775,6 +13777,10 @@ textarea.is-invalid.tt-hint {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important; }
 
+.bg-coming {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-coming-rgb), var(--bs-bg-opacity)) !important; }
+
 .bg-light {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important; }
@@ -19895,7 +19901,7 @@ div.tagsinput {
 /* === Landing screens === */
 /* Auth */
 .auth.login-bg {
-  background: url("../images/auth/Login_bg.jpg");
+  background: url("../images/auth/login_bgmine.jpg");
   background-size: cover; }
 
 .auth .login-half-bg {
@@ -19903,7 +19909,7 @@ div.tagsinput {
   background-size: cover; }
 
 .auth.register-half-bg {
-  background: url("../images/auth/Login_bg2.jpg");
+  background: url("../images/auth/login_bgmine.jpg");
   background-size: cover; }
 
 .auth.lock-full-bg {
